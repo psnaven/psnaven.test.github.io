@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'trebuchet ms', verdana, arial;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+table.tablesorter table.info tbody th, table.tablesorter table.info td {
+  border: #000 1px solid;
+}
+
+table.tablesorter table.info tbody th {
+  background: #eee;
+}
+
+table.compatibility {
+  width: 50%;
+  float: right;
+  font-size: .8em;
+  margin-left: 20px;
+}
+
+table.compatibility th, table.compatibility td {
+  text-align: center;
+  padding: 2px;
+}
+
+table, p.small, .smallcode code {
+  font-size: small;
+}
+
+p.small {
+  padding-left: 25px;
+}
+
+.xsmall {
+  font-size: 11px;
+}
+
+.sourceInfo {
+  font-size: 11px;
+  color: #7f7f7f;
+}
+
+@media all and (max-width: 700px) {
+  table.compatibility, div.box {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+}
